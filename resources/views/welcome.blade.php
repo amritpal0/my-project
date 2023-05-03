@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>My Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <style>
+          .slick-slide img {
+    display: block;
+    height: 700px;
+    object-fit: cover;
+}
+    </style>
 </head>
 
 <body>
@@ -53,8 +60,6 @@
             dots: true,
             autoplay: true,
             autoplaySpeed: 2000,
-            fade: true,
-            cssEase: 'linear',
             arrows: true
         });
     });
